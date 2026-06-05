@@ -1,10 +1,23 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/CPANELUSER/public_html/
+    - export DEPLOYPATH=/home/planknorge/demo.planknorge.no/
     - /bin/cp -R index.html $DEPLOYPATH
     - /bin/cp -R arkitekt.html $DEPLOYPATH
     - /bin/cp -R plankegulv.html $DEPLOYPATH
+    - /bin/cp -R chevron.html $DEPLOYPATH
+    - /bin/cp -R fiskeben.html $DEPLOYPATH
+    - /bin/cp -R heltre.html $DEPLOYPATH
+    - /bin/cp -R herringbone.html $DEPLOYPATH
+    - /bin/cp -R checkerboards.html $DEPLOYPATH
+    - /bin/cp -R rhombs.html $DEPLOYPATH
+    - /bin/cp -R versailles.html $DEPLOYPATH
+    - /bin/cp -R designgulv.html $DEPLOYPATH
+    - /bin/cp -R inspirasjon.html $DEPLOYPATH
+    - /bin/cp -R om.html $DEPLOYPATH
+    - /bin/cp -R ditt-design.html $DEPLOYPATH
+    - /bin/cp -R konsultasjon.html $DEPLOYPATH
+    - /bin/cp -R kontakt.html $DEPLOYPATH
     - /bin/cp -R styles.css $DEPLOYPATH
     - /bin/cp -R script.js $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
