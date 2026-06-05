@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arkitekt — Plank Norge</title>
+    <meta name="description" content="For arkitekter, interiørdesignere og byggherrer. Direkte kontakt med Plank Norges prosjektavdeling og ekspertrådgivere." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body data-page="arkitekt">
+    <div id="site-header"></div>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+        <h1 class="page-title">Arkitekt</h1>
+        <p class="page-tagline">— for fagfolk</p>
+
+        <div class="hero-grid">
+            <figure class="hero-image">
+                <img src="assets/images/Gulv_interior2-2048x2048.jpg" alt="Arkitekt — for fagfolk" />
+                <figcaption>For fagfolk</figcaption>
+            </figure>
+
+            <div class="hero-text">
+                <p class="lead">
+                    Vår arkitektside er rettet mot arkitekter, interiørdesignere, eiendomsutviklere
+                    og byggherrer som arbeider profesjonelt. Her får du direkte kontakt med
+                    prosjektavdelingen og våre ekspertrådgivere.
+                </p>
+
+                <p class="contact-block">
+                    <strong>Prosjekt- og produktrådgivning</strong><br/>
+                    Plank Norge — Showroom Stavanger<br/>
+                    Fabrikkveien 10, 4033 Stavanger<br/>
+                    M: 404 08 996<br/>
+                    E: jr@planknorge.no
+                </p>
+
+                <ul class="cta-list">
+                    <li><a href="#"><span class="cta-icon">›</span> Få et tilbud</a></li>
+                    <li><a href="#"><span class="cta-icon">›</span> Bestill vareprøve</a></li>
+                    <li><a href="https://planknorge.no/showroom/"><span class="cta-icon">›</span> Book et møte</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SHOWROOM ============ -->
+    <section class="showroom-section">
+        <div class="showroom-grid">
+            <div class="showroom-text">
+                <p class="showroom-eyebrow">SHOWROOM</p>
+                <h2>Opplev gulvene våre</h2>
+
+                <ul class="showroom-list">
+                    <li>
+                        <strong>STAVANGER</strong>
+                        <span>Plank Showroom</span>
+                        <span>Fabrikkveien 10, 4033 Stavanger</span>
+                        <span>M: 404 08 996</span>
+                        <span>E: jr@planknorge.no</span>
+                    </li>
+                </ul>
+
+                <p class="showroom-faq"><a href="kontakt.html">FAQ</a></p>
+            </div>
+
+            <figure class="showroom-image">
+                <img src="assets/images/riga-parket-chalet-hans-1.jpg" alt="Showroom interiør" />
+            </figure>
+        </div>
+    </section>
+
+    <!-- ============ BOOK A MEETING ============ -->
+    <section class="book-section">
+        <div class="book-grid">
+            <div class="book-intro">
+                <h2>Book et møte</h2>
+                <p>Vi står til disposisjon for deg, uansett hvor i verden du befinner deg.</p>
+                <p>Book et online-møte med teamet vårt for å diskutere prosjektet ditt — eller besøk et av våre showroom. Etter du har sendt inn skjemaet vil vi kontakte deg.</p>
+            </div>
+
+            <form class="book-form" onsubmit="event.preventDefault(); alert('Takk! Vi tar kontakt.');">
+                <div class="form-row">
+                    <label>Book et møte</label>
+                    <select required>
+                        <option value="">Velg type møte</option>
+                        <option>Online-møte</option>
+                        <option>Showroom-besøk</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label>Eller</label>
+                    <div class="form-static">
+                        <strong>Plank Showroom — Stavanger</strong><br/>
+                        Fabrikkveien 10, 4033 Stavanger
+                    </div>
+                </div>
+                <div class="form-row"><label>Navn</label><input type="text" required /></div>
+                <div class="form-row"><label>Etternavn</label><input type="text" required /></div>
+                <div class="form-row"><label>E-post</label><input type="email" required /></div>
+                <div class="form-row"><label>Telefon</label><input type="tel" /></div>
+
+                <button type="submit" class="btn-solid">FORESPØR ET MØTE</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="site-footer"></div>
+    <script src="script.js?v=3"></script>
+</body>
+</html>

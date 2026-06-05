@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/CPANELUSER/public_html/
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R arkitekt.html $DEPLOYPATH
+    - /bin/cp -R plankegulv.html $DEPLOYPATH
+    - /bin/cp -R styles.css $DEPLOYPATH
+    - /bin/cp -R script.js $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH

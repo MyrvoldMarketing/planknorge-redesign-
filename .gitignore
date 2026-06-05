@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node (hvis det blir aktuelt)
+node_modules/
+dist/
+build/
+
+# Env
+.env
+.env.local

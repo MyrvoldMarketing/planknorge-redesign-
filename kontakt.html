@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt — Plank Norge</title>
+    <meta name="description" content="Kontakt Plank Norge — Showroom Stavanger, Fabrikkveien 10. M: 404 08 996, jr@planknorge.no." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=3" />
+</head>
+<body data-page="kontakt">
+    <div id="site-header"></div>
+
+    <section class="page-intro">
+        <h1 class="page-title">Kontakt</h1>
+        <p class="page-tagline">— vi tar gjerne en prat</p>
+        <p class="lead">Send oss en melding, så tar vi kontakt. Du er også velkommen til å besøke showroomet vårt i Stavanger.</p>
+    </section>
+
+    <section class="book-section" style="border-top:none;padding-top:24px">
+        <div class="book-grid">
+            <div class="book-intro">
+                <h2>Plank Norge — Showroom</h2>
+                <p class="contact-block">
+                    <strong>Adresse</strong><br/>
+                    Fabrikkveien 10<br/>
+                    4033 Stavanger
+                </p>
+                <p class="contact-block">
+                    <strong>Kontakt</strong><br/>
+                    M: 404 08 996<br/>
+                    E: jr@planknorge.no
+                </p>
+                <p class="contact-block">
+                    <strong>Følg oss</strong><br/>
+                    Facebook · Instagram
+                </p>
+            </div>
+
+            <form class="book-form" onsubmit="event.preventDefault(); alert('Takk! Vi tar kontakt.');">
+                <div class="form-row"><label>Navn</label><input type="text" required /></div>
+                <div class="form-row"><label>Etternavn</label><input type="text" required /></div>
+                <div class="form-row"><label>E-post</label><input type="email" required /></div>
+                <div class="form-row"><label>Telefon</label><input type="tel" /></div>
+                <div class="form-row">
+                    <label>Emne</label>
+                    <select required>
+                        <option value="">Velg emne</option>
+                        <option>Generell henvendelse</option>
+                        <option>Tilbud</option>
+                        <option>Vareprøve</option>
+                        <option>Prosjekt / arkitekt</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-solid">SEND MELDING</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="site-footer"></div>
+    <script src="script.js?v=3"></script>
+</body>
+</html>
